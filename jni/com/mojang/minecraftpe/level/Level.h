@@ -1,12 +1,6 @@
 #pragma once
-#include <memory>
-class AABB;
-class Player;
+
 class Random;
-class EntityDamageSource;
-class Difficulty;
-class LightLayer;
-class LevelChunk;
 
 class Level  {
 public:

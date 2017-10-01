@@ -13,7 +13,7 @@ static bool (*_LiquidBlock$solidify)(LiquidBlock*, BlockSource&, const BlockPos&
 static bool LiquidBlock$solidify(LiquidBlock* self, BlockSource& region, const BlockPos& pos1, const BlockPos& pos2)
 {
 	Block* blockToReplace;
-	int random = region.getLevel().getRandom()->genrand_int32() % 100;
+	int random = region.getLevel().getRandom()->_genRandInt32() % 100;
 	if(random < 55)
 		return _LiquidBlock$solidify(self, region, pos1, pos2);
 	else if(random < 78)

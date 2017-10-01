@@ -3,9 +3,9 @@
 enum class CreativeItemCategory : int
 {
 	ALL,
-	BLOCKS,
-	DECORATIONS,
-	TOOLS,
+	CONSTRUCTION,
+	NATURE,
+	EQUIPMENT,
 	ITEMS,
 	COMMANDONLY,
 	NONE
